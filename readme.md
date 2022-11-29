@@ -30,7 +30,7 @@ ipadx       widget padx version
 ipady       widget pady version
 
 
-#DATA TYPE
+##DATA TYPE
 numeric type:
 int = no decimal only whole number 
 float = this decimal or sientific number(35e3 e=exponential)
@@ -39,25 +39,35 @@ complex= j imagerinary part and normal number are real part
 Type Convertion
 
 you can convert from one type to another with int () ,float(), and complex()
-```x=1```
-```y=2.8```
-``z-1j``
+```
+x=1
+y=2.8
+z-1j
+```
 
 convert from int to float 
-```a = float(x)```
+```
+a = float(x)
+```
 
 convert from float to int 
-```b= int(y)```
+```
+b= int(y)
+```
 
 convert from int to complex 
-``c= complex(x)``
+```
+c= complex(x)
+```
 NOTE: cant convert from complex to other data type
 
-#RANDOM NUMBER 
+##RANDOM NUMBER 
 python does nott have a random() function to make a random number 
 
 import the random module , and display a random number between 1 and 9
 
-```import random
+```
+import random
 
-print(random.randrange(1, 10))```
+print(random.randrange(1, 10))
+```
