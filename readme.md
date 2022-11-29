@@ -1,8 +1,10 @@
+***
 label   a widget used to display text on the scren
 button  abutton that can contain a text and can perform an actiion when clicked
 entry   a text entry widget that allows only a single line of text 
 text    a text entry widget that allows multiple text entry 
 frame   apercentage region used to group relaye widget provide 
+***
 
 ```
          colum
@@ -18,7 +20,7 @@ w   (0,2)| (1,2)| (2,2)
 container.columnconfigure(index,weight)
 container.rowconfigure(index, weight)
 
-
+***
 Parameter    Meaning
 column       the column inde xwhere you want to place the widget
 row          the row index where you want to place the widget
@@ -31,15 +33,18 @@ padx         add external padding above and below the widget
 pady        add external padding to the left and right of the weight
 ipadx       widget padx version
 ipady       widget pady version
-
+***
 
 ##DATA TYPE
 
 
 
 numeric type:
+
 int = no decimal only whole number 
+
 float = this decimal or sientific number(35e3 e=exponential)
+
 complex= j imagerinary part and normal number are real part
 
 Type Convertion
@@ -103,4 +108,30 @@ print("free" in txt)
 
 if "free" in txt:
   print("yes freee present")
+
+if "expensive" not in text:
+   print("expensive not available")
+```
+
+##string slice
+you can return a range of character by using the slice syntax.
+
+specify the start index 
+
+```
+b = "hello word"
+print (b[2:5])
+```
+
+slice from start 
+```
+b = "hello word"
+print (b[:5])
+```
+
+slice to end 
+
+```
+b = "hello word"
+print (b[2:])
 ```
