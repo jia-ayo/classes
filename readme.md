@@ -170,9 +170,14 @@ b = "hello word"
 print (b.replace("h" "j"))
 ```
 
+
+
 SPLIT STRING
 
 ```
 b = "hello word"
 print (b.split(",")#returns['hello','world'])
 ```
+*ASSIGMENT*
+
+*10 STRING METHOD AND HOW THEY WORK*
