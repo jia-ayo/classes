@@ -1,9 +1,13 @@
 ***
-label   a widget used to display text on the scren
-button  abutton that can contain a text and can perform an actiion when clicked
-entry   a text entry widget that allows only a single line of text 
-text    a text entry widget that allows multiple text entry 
-frame   apercentage region used to group relaye widget provide 
+label:   a widget used to display text on the scren
+
+button:  abutton that can contain a text and can perform an actiion when clicked
+
+entry:   a text entry widget that allows only a single line of text 
+
+text:    a text entry widget that allows multiple text entry 
+
+frame:   apercentage region used to group relaye widget provide 
 ***
 
 ```
@@ -21,18 +25,27 @@ container.columnconfigure(index,weight)
 container.rowconfigure(index, weight)
 
 ***
-Parameter    Meaning
-column       the column inde xwhere you want to place the widget
-row          the row index where you want to place the widget
-rowspan      set the number of adjacent rows that the widget
-columnspan   set the number of adjacent columns that the widget cn span 
-sticky       if the call is large than a widget , the sticky option specifies 
+Parameter:    Meaning
+
+column:      the column inde xwhere you want to place the widget
+
+row:          the row index where you want to place the widget
+
+rowspan:      set the number of adjacent rows that the widget
+
+columnspan:   set the number of adjacent columns that the widget cn span 
+
+sticky:       if the call is large than a widget , the sticky option specifies 
              which side the widget should stick to and howdistribute any extra 
              space within the cell that is not taken  up by the widget at its original size
-padx         add external padding above and below the widget
-pady        add external padding to the left and right of the weight
-ipadx       widget padx version
-ipady       widget pady version
+
+padx:         add external padding above and below the widget
+
+pady:        add external padding to the left and right of the weight
+
+ipadx:       widget padx version
+
+ipady:       widget pady version
 ***
 
 ##DATA TYPE
@@ -114,6 +127,7 @@ if "expensive" not in text:
 ```
 
 ##string slice
+
 you can return a range of character by using the slice syntax.
 
 specify the start index 
@@ -134,4 +148,31 @@ slice to end
 ```
 b = "hello word"
 print (b[2:])
+```
+
+##Modefiy String
+
+uppercase
+```
+b = "hello word"
+print (b.upper())
+```
+lowercase
+```
+b = "HELLO word"
+print (b.lower())
+```
+
+REPLACE A String
+
+```
+b = "hello word"
+print (b.replace("h" "j"))
+```
+
+SPLIT STRING
+
+```
+b = "hello word"
+print (b.split(",")#returns['hello','world'])
 ```
