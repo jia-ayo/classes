@@ -48,7 +48,7 @@ ipadx:       widget padx version
 ipady:       widget pady version
 ***
 
-##DATA TYPE
+##    DATA TYPE
 
 
 
@@ -85,7 +85,7 @@ c= complex(x)
 ```
 NOTE: cant convert from complex to other data type
 
-##RANDOM NUMBER 
+    ##    RANDOM NUMBER 
 
 
 python does nott have a random() function to make a random number 
@@ -99,7 +99,7 @@ print(random.randrange(1, 10))
 ```
 
 
-##String
+    ##    String
 
 string length
 
@@ -126,7 +126,7 @@ if "expensive" not in text:
    print("expensive not available")
 ```
 
-##string slice
+##    string slice
 
 you can return a range of character by using the slice syntax.
 
@@ -150,7 +150,7 @@ b = "hello word"
 print (b[2:])
 ```
 
-##Modefiy String
+##    Modefiy String
 
 uppercase
 ```
@@ -270,7 +270,7 @@ print(text.isalpha())
 #Output: False
 ```
 
-##prthon lambda
+##      PYTON LAMBDA
 
 
 ```
@@ -291,3 +291,33 @@ summerixe argument a, b and c and return the result:
 x = lambda a,b,c : a + b + c
 print(x(5,6,2))
 ```
+
+##     STRING FORMAT
+
+we cannot combine strings and numbers like this :
+
+the format()method takes the passed arguments formats them and places them in the string where the placeholders {}are :
+
+```
+age = 40
+txt = "my name is jone snow, and i am {}"
+print(txt.format(age))
+
+
+quantity= 3
+item_tag_no= 567
+price = 49.95
+
+myorder = "i want to pay {} dollars for {} pies of item {}"
+print(myorder.format(quantity, item_tag_no, price))
+```
+
+## escape characters in python programming
+
+code:   result 
+\':     single Quote
+\\:     backslash is one backlash
+\n:     new line
+\r:     new line
+\t:     tab
+\b:     backspace 
