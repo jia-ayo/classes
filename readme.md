@@ -316,8 +316,101 @@ print(myorder.format(quantity, item_tag_no, price))
 
 code:   result 
 \':     single Quote
-\\:     backslash is one backlash
+
+\:     backslash is one backlash
+
 \n:     new line
+
 \r:     new line
+
 \t:     tab
+
 \b:     backspace 
+
+## python operetor 
+operator are used to perform operation on variables and values for instance
+
+#### types of operator
+arthemethic operator
+
+assignment operator
+
+comparrison operator
+
+logical operator
+
+identity operator
+
+membership operator 
+
+bitwise  operator
+
+
+## python list 
+
+list uses [] list can hold several sata type
+
+#### Acessing list items
+
+it can be accessed by using the index
+```
+thislist=["apple", "banana", "cherry"]
+print(thislist[1])
+
+#negative index starts from the back 
+
+list=["apple", "banana", "cherry"]
+print(list[-1])
+#output cherry
+
+```
+#### changing list item value 
+
+to change item at specific index 
+```
+thislist = ["apple", "banna", "watermellon"]
+thislist[1]= "water"
+print(thislist)
+```
+### methods
+insert: this helps to input new value 
+
+.insert()
+
+remove: to remove an object from list
+
+.remove()
+
+clear: this empties the whole list 
+
+.clear()
+
+sort: this arranges the alphabatically or numericly
+
+.sort()
+
+reversort
+
+## Tuple
+it is written in ()
+
+thet can not be changed cause they are imutable by nature
+
+but walk around by turning into list to modify to turn bAack into turple
+
+```
+x= ("appple", "banna", "cherry")
+y = list(x)
+y[1] = "fish"
+
+```
+
+## Python Set 
+
+set are used to store multiple item in a single variable
+
+they are written  with {}
+
+duplicate are not allowed in set
+
+they can not be changed but additional items can be added 
