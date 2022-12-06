@@ -269,3 +269,25 @@ text = "Python2022"
 print(text.isalpha())
 #Output: False
 ```
+
+##prthon lambda
+
+
+```
+x = lambda a:a + 10
+#add 10 to argument a, and return  the result
+# x=lambda a is the argument while a +10 is the expression
+print(x(5))
+#value of arguement was supllied in the print statement
+
+```
+multiply argument a with argument b and return the result 
+```
+x= lambda a, b: a * b
+print(x(5, 6))
+```
+summerixe argument a, b and c and return the result:
+```
+x = lambda a,b,c : a + b + c
+print(x(5,6,2))
+```
