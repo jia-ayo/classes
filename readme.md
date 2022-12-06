@@ -181,3 +181,94 @@ print (b.split(",")#returns['hello','world'])
 *ASSIGMENT*
 
 *10 STRING METHOD AND HOW THEY WORK*
+
+*.lower()*
+
+This method changes all the string characters to lower case.
+```
+name = "Ashish"
+print(name.lower())
+#Output: ashish
+```
+*.upper()*
+
+This method changes all the string characters to upper case.
+```
+name = "Ashish"
+print(name.upper())
+#Output: ASHISH
+```
+*.title()*
+
+This method capitalizes the first letter of each word in a string.
+```
+sentence = "i am ashish"
+print(sentence.title())
+#Output: I Am Ashish
+```
+
+*.strip()*
+
+This method removes whitespaces from the beginning and end of a string.
+```
+line = "      Hey!      "
+print(line.strip())
+#Output: Hey!
+```
+*.split()*
+
+This method splits a string at a given argument or at spaces by default.
+```
+line = "This is a blue lion"
+print(line.split())
+#Output: ["This","is","a","blue","lion"]
+line = "      Hey!      "
+print(line.strip())
+#Output: Hey!
+```
+*.join()*
+
+This method joins an array of strings separated by a delimiter (, in the example below).
+```
+arr = ["Sky", "is", "red"]
+print(",".join(arr))
+#Output: Sky,is,red
+```
+*.find()*
+
+This method searches for the first reference of a specified element in a string and returns its index.
+```
+text = "The water is green"
+print(text.find("t"))
+#Output: 6
+```
+This method functions similarly to index() except that index() method raises an exception if the element is not found in the string.
+
+*.count()*
+
+This method returns the number of times an element occurs in a string.
+```
+text = "I am Ashish. This is Ashish."
+print(text.count("Ashish"))
+#Output: 2
+```
+*.replace()*
+
+This method replaces an element with another in a string.
+```
+text = "I love Java"
+
+print(text.replace("Java", "Python"))
+#Output: I love Python
+```
+*.isalpha()*
+
+This method returns True if all the characters in a string are alphabet else, it returns False .
+```
+text = "Python"
+print(text.isalpha())
+#Output: True
+text = "Python2022"
+print(text.isalpha())
+#Output: False
+```
