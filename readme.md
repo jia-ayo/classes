@@ -222,9 +222,6 @@ This method splits a string at a given argument or at spaces by default.
 line = "This is a blue lion"
 print(line.split())
 #Output: ["This","is","a","blue","lion"]
-line = "      Hey!      "
-print(line.strip())
-#Output: Hey!
 ```
 *.join()*
 
